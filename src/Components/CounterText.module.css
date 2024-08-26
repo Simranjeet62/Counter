@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 5rem;
+}
+
+h1 {
+  font-size: 12rem;
+}
+
+.reset {
+  font-size: 4.5rem;
+  font-weight: 600;
+}
+
+.resetBtn {
+  color: #1864ab;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.resetBtn:active {
+  cursor: pointer;
+  color: #339af0;
+}
