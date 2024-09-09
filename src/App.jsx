@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 export default function App() {
   const [count, setCount] = useState(function () {
     const storedValue = localStorage.getItem("count");
-    return storedValue ? JSON.parse(storedValue) : [];
+    return storedValue ? JSON.parse(storedValue) : 0;
   });
 
   useEffect(
